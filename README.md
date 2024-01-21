@@ -22,3 +22,4 @@
 - git push --set-upstream origin <branch_name>
 - git merge origin/<branch_name>
 - git pull
+- git rebase <branch_name>
