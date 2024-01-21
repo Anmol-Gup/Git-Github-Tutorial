@@ -10,6 +10,7 @@ function showName(name){
 function addFeatures(){
     console.log('New feature 1 added')
     console.log('New feature 2 added')
+    console.log('New feature 3 added')
 }
 
 function isEligible(age){
