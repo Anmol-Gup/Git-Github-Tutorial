@@ -19,3 +19,4 @@
 - git checkout <branch_name>
 - git switch <branch_name>
 - git push --set-upstream origin <branch_name>
+- git merge origin/<branch_name>
