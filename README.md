@@ -9,6 +9,9 @@
 - git init
 - git status
 - git commit -m <commit_message>
+- git add .
+- git add <file_name>
+- git rm <file_name>
 - git diff
 - git log [show commit history]
 - git log --oneline [show commit history in prettier format]
