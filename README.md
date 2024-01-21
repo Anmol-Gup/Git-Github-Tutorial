@@ -18,5 +18,3 @@
 - git branch <branch_name>
 - git checkout <branch_name>
 - git push --set-upstream origin <branch_name>
-- git checkout main
-- git switch main
