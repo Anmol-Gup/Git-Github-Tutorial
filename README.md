@@ -1,4 +1,8 @@
 ## Git & Github Tutorial
+- https://education.github.com/git-cheat-sheet-education.pdf
+- https://app.eraser.io/workspace/P96VaUsW5o0FXVOTDzHY
+- [Tutorial Video](https://youtu.be/RDxQEzXN8AU?si=yFQLXi4KFecu2zHB)
+
 ### Commands used
 - git config --global user.name
 - git config --global user.email
@@ -6,20 +10,22 @@
 - git status
 - git commit -m <commit_message>
 - git diff
-- git log
-- git log --oneline
+- git log [show commit history]
+- git log --oneline [show commit history in prettier format]
 - git show <commit_id>
-- git blame <file_path>
-- git remote add origin <git_url>
+- git blame <file_path> [show the details of the user which has done the changes in file] 
+- git remote add origin <git_url> [sync local repo with github repo]
 - git remote -v
-- git reset --hard <previous_commit_id>
-- git revert <commit_id>
-- git branch
+- git reset --hard <previous_commit_id> [head update, commit history delete, linear flow]
+- git revert <commit_id> [specific commit history revert back]
+- git branch [show current branch]
 - git branch <branch_name>
 - git checkout <branch_name>
-- git checkout -b <branch_name>
+- git checkout -b <branch_name> [create branch & switch at same time]
 - git switch <branch_name>
-- git push --set-upstream origin <branch_name>
-- git merge origin/<branch_name>
-- git pull
-- git rebase <branch_name>
+- git push --set-upstream origin <branch_name> [creates branch in remote server/github & push]
+- git merge origin/<branch_name> [commit history will be combined, so reverting will revert whole commits/changes]
+- git pull [pull the changes or latest code from remote server or github to local repo]
+- git rebase <branch_name> [commit history is not lost, so it can be reverted specific commit]
+- git stash [You want to pull latest code from github but you are working in changes in your local repo or some work in progress & you don't want to staged local changes (add .) or commit, then it temporarily stores changes made in local repo in directory & you can git pull]
+- git stash apply [applies changes back in local repo]
