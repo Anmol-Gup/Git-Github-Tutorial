@@ -12,7 +12,7 @@ function addFeature1(){
 }
 function isEligible(age){
     if(age>=18)
-        console.log(`Eligible`)
+        console.log('Eligible')
     else
         console.log('Not eligible')
 }
